@@ -66,25 +66,40 @@
             </button>
             <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
             <form class="js-speaker-form">
+              <div class="form-field">
+                <label for="name">Ім'я</label>
+                   <input type="text" name="name" placeholder="Іван Іванченко" id="name"/>
+                   <svg class="modal-icon" width="18" height="18">
+                   <use href="./img/img/symbol-defs3.svg#icon-person-black-18dp-1"></use>
+                   </svg>
+              </div>
 
-              <label for="name">Ім'я</label>
-              <input type="text" name="name" placeholder="Іван Іванченко" id="name"/>
-
+              <div class="form-field">
               <label for="tel">Телефон</label>
               <input type="tel" name="tel" placeholder="+300 000 00 00" id="tel"/>
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./img/img/symbol-defs3.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+              </div>
 
+              <div class="form-field">
               <label for="mail">Пошта</label>
               <input type="email" name="mail" placeholder="email@.com" id="mail" />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./img/img/symbol-defs3.svg#icon-email-black-18dp-1"></use>
+              </svg>
+              </div>
 
+              <div class="form-comment">
               <label for="comment">Коментар</label>
               <input type="comment" name="comment" placeholder="Введіть текст" id="comment" />
+              </div>
 
               <form>
           
-                <label>
-                  <input type="checkbox" name="договор" value="договор" checked />
-                  Погоджуюся з розсилкою та приймаю Умови договору
-                </label>
+                
+                  <input type="checkbox" name="" value=""  />
+                <label for="check">Погоджуюся з розсилкою та приймаю Умови договору</label>
               </form>
 
 

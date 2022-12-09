@@ -425,6 +425,13 @@ ul{
       color: #ffffff;
 }
 /* Замовити послугу */
+.modal-title{
+       font-size: 20px;
+       line-height: 23px;
+       color: #000000;
+       
+       
+}
 .input {
       padding: 8px;
       font-family: inherit;
@@ -434,6 +441,54 @@ ul{
       display: flex;
       flex-direction: column;
       margin-bottom: 8px;
+}
+.form-field{
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      margin-bottom: 10px;
+
+}
+.form-field label{
+      margin-bottom: 4px;
+      text-align: left;
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.01em;
+}
+.form-field input{
+      padding-top: 11px;
+      padding-bottom: 11px;
+      padding-left: 42px;
+      border: 1px solid var(--title-text-color);
+      border-radius: 4px;
+}
+.modal-icon{
+      position: absolute;
+      top: 50%;
+      left: 12px;
+      transform: translate(-50%);
+      fill: var(--primary-text-color);
+}
+.form-comment {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      margin-bottom: 10px;
+}
+.form-comment label{
+       margin-bottom: 4px;
+       text-align: left;
+       font-size: 12px;
+       line-height: 1.16;
+       letter-spacing: 0.01em;
+}
+.form-comment input {
+      padding-top: 11px;
+      padding-bottom: 11px;
+      padding-left: 42px;
+      border: 1px solid var(--title-text-color);
+      border-radius: 4px;
 }
 /* Секція 2 */
 .section-service{
