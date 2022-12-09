@@ -425,8 +425,16 @@ ul{
       color: #ffffff;
 }
 /* Замовити послугу */
+.input {
+      padding: 8px;
+      font-family: inherit;
+}
 
-
+.label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 8px;
+}
 /* Секція 2 */
 .section-service{
 

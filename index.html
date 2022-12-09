@@ -64,6 +64,34 @@
                 <use href="./img/img/symbol-defs.svg#icon-close-black"></use>
               </svg>
             </button>
+            <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="js-speaker-form">
+
+              <label for="name">Ім'я</label>
+              <input type="text" name="name" placeholder="Іван Іванченко" id="name"/>
+
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" placeholder="+300 000 00 00" id="tel"/>
+
+              <label for="mail">Пошта</label>
+              <input type="email" name="mail" placeholder="email@.com" id="mail" />
+
+              <label for="comment">Коментар</label>
+              <input type="comment" name="comment" placeholder="Введіть текст" id="comment" />
+
+              <form>
+          
+                <label>
+                  <input type="checkbox" name="договор" value="договор" checked />
+                  Погоджуюся з розсилкою та приймаю Умови договору
+                </label>
+              </form>
+
+
+
+              <button type="submit">Відправити</button>
+
+            </form>
           </div>
         </div>
         
@@ -396,6 +424,7 @@
       </div>
       </div>
     </footer>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
