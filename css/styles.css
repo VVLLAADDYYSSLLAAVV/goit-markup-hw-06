@@ -426,7 +426,7 @@ ul{
 }
 /* Замовити послугу */
 .modal-title{
-      
+
 }
        
        
@@ -441,6 +441,8 @@ ul{
       flex-direction: column;
       margin-bottom: 8px;
 }
+
+
 
 
 
@@ -539,6 +541,7 @@ ul{
 .sub{
       margin-right: 0;
 }
+
 .modal-btn{
       padding: 10px 52px;
       text-align: center;
@@ -549,7 +552,7 @@ ul{
       border: none;
       border-radius: 4px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) ;
-      background-color: var(--accent-color);
+      
       color: var(--button-color);
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       cursor: pointer;
