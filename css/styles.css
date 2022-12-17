@@ -445,17 +445,11 @@ ul{
       flex-direction: column;
       margin-bottom: 8px;
 }
-
-
-
-
-
 .form-field{
       display: flex;
       position: relative;
       flex-direction: column;
       margin-bottom: 10px;
-
 }
 .form-field label{
       margin-bottom: 4px;
@@ -475,14 +469,26 @@ ul{
       position: absolute;
       top: 50%;
       left: 12px;
-      transform: translate(-50%);
-      fill: var(--primary-text-color);
+      fill: var(--pay-text-color);
+}
+.modal-icon:hover{
+      cursor: pointer;
+      fill: #2196F3;
+}
+.text:hover,
+.tel:hover,
+.email:hover{
+      cursor: pointer;
+      border-color: #2196F3;
 }
 .form-comment {
       display: flex;
       position: relative;
       flex-direction: column;
       margin-bottom: 10px;
+      resize: horizontal;
+      max-height: 250px;
+      
 }
 .form-comment label{
        margin-bottom: 4px;
@@ -500,6 +506,7 @@ ul{
 }
 .textarea {
       resize: none;
+      
 }
 
 .textarea {
