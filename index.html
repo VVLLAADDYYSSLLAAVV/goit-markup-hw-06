@@ -92,15 +92,18 @@
 
               <div class="form-comment">
 
-                <label for="comment"></label>
-                  Коментар
+                <label class="commentary" for="comment">Коментар</label>
+                  
                   <textarea name="comment" rows="5" placeholder="Введіть текст"></textarea>
                 
 
               </div>
 
               <form>
-                  <input type="checkbox" name="policy" value="policy"  />
+                  <input class="checkbox" type="checkbox" name="policy" value="policy"  />
+                  <svg class="form-svg" width="15" height="15">
+                    <use href="./img/img/symbol-defs.svg#icon-check"></use>
+                  </svg>
                   <label class="terms" for="policy">Погоджуюся з розсилкою та приймаю</label>
                   <a class="contract" href="">Умови договору</a>
               </form>
