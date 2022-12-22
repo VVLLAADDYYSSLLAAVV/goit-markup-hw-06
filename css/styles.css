@@ -426,6 +426,14 @@ ul{
 }
 /* Замовити послугу */
 .modal-title{
+       font-style: normal;
+       font-weight: 700;
+       font-size: 20px;
+       line-height: 1.15;
+       text-align: center;
+       letter-spacing: 0.03em;
+       color: #212121;
+       margin-bottom: 12px;
 
 }
        
@@ -444,6 +452,15 @@ ul{
       display: flex;
       flex-direction: column;
       margin-bottom: 8px;
+}
+.form-label{
+      font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.01em;
+            color: #757575;
+            margin-bottom: 4px;
 }
 .form-field{
       display: flex;
@@ -464,6 +481,26 @@ ul{
       padding-left: 42px;
       border: 1px solid var(--title-text-color);
       border-radius: 4px;
+}
+textarea{
+      padding: 16px;
+}
+.terms{
+      font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: #757575;
+}
+.contract{
+      font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            text-decoration-line: underline;
+            color: #2196F3;
 }
 .modal-icon{
       position: absolute;
