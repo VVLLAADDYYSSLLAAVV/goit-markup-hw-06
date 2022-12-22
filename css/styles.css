@@ -999,3 +999,18 @@ input:focus{
        border-color: #2196F3;
        fill: #2196F3;
 }
+.text:hover~.modal-icon,
+.text:focus~.modal-icon {
+      fill: #2196f3;
+      border-color: #2196f3;
+}
+.tel:hover~.modal-icon,
+.tel:focus~.modal-icon {
+      fill: #2196f3;
+      border-color: #2196f3;
+}
+.email:hover~.modal-icon,
+.email:focus~.modal-icon {
+      fill: #2196f3;
+      border-color: #2196f3;
+}
