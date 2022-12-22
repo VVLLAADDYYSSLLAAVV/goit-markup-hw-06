@@ -1014,3 +1014,8 @@ input:focus{
       fill: #2196f3;
       border-color: #2196f3;
 }
+input:hover,
+input:focus {
+      outline: none;
+      border-color: #2196f3;
+}
