@@ -931,6 +931,8 @@ textarea{
             color: #FFFFFF;
             background-color: #2196F3;
             padding: 10px 28px;
+            border: transparent;
+            margin-left: 12px;
 }
 /* Modal window*/
 .backdrop {
@@ -1046,7 +1048,12 @@ input:focus {
       width: 358px;
       height: 50px;
       padding: 16px;
+      background-color: transparent;
 }
 .sub-form-for{
       margin-top: 20px;
+      display: flex;
+}
+.icon-icon-send{
+      margin-left: 10px;
 }
