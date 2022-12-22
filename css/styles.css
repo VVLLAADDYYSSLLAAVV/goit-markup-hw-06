@@ -993,3 +993,9 @@ textarea{
       
 
 }
+input:hover
+input:focus{
+       cursor: pointer;
+       border-color: #2196F3;
+       fill: #2196F3;
+}
